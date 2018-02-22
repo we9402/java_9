@@ -5,18 +5,9 @@ public class Member {
 	String name; //이름
 	int age;	//나이
 	String s;
-	float weight;
-	float height;
+	double weight;
+	double height;
 	String number;
-	
-	public Member() {
-		name = "김OO";
-		age = 28;
-		s ="남자";
-		weight = 71.7f;
-		height = 175.5f;
-		number = "010-1111-2222";
-	}
 	
 	public void info() {
 		System.out.println("이름 : "+name);
