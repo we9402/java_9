@@ -7,7 +7,7 @@ public class InBody {
 		//s가 회원몸무게 보다 작다면 비만
 		//s가 회원몸무게 보다 크다면 저제중
 		//s가 회원몸무게 랑 같다면 정상
-		double s = (member.height-100)*0.95;
+		/*double s = (member.height-100)*0.95;
 		System.out.println(member.name+"회원의 정상체중은 "+s+" 입니다.");
 		if(s<member.weight) {
 			System.out.println(member.name+"회원의 체중은 비만입니다.");
@@ -15,7 +15,7 @@ public class InBody {
 			System.out.println(member.name+"회원의 체중은 저체중 입니다.");
 		}else {
 			System.out.println(member.name+"회원의 체중은 정상 입니다.");
-		}
+		}*/
 		
 	}
 	
